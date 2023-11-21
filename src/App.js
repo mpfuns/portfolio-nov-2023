@@ -47,8 +47,8 @@ function App() {
     
       <section id='projects'>
         <div className='container'>
-          <div className='med-row'>
-          <div className='title'>
+          <div className='big-row'>
+          <div className='section__title'>
             <h1>Here are some of my <span className='special-color'>projects</span></h1>
             </div>
        <div className="project--group">

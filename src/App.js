@@ -41,7 +41,16 @@ function App() {
     <a href="#projects" className="scroll">
       <div className='scroll__icon click'></div>
     </a>
-    
+    <div className='modal'>
+    <div className='modal__half modal__about'>
+      <h3 className='modal__title modal__title--about'>Here's a bit  about me.</h3>
+      <h4 className='modal__sub-title modal__sub-title--about'>Frontend Software Engineer</h4>
+    </div>
+    <div className='modal__half modal__contact'>Let's have a chat
+    <h3 className='modal__title modal__title--contact'>Here's a bit  about me.</h3>
+    <h4 className='modal__sub-title modal__sub-title--conact'>Frontend Software Engineer</h4>
+    </div>
+    </div>
   </section>
      
     

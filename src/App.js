@@ -50,6 +50,7 @@ function App() {
         <br></br>
         I'm currently working  on extremely difficult engineering problems and learn from a team consisting of some of the most <b className='special-color'>talented</b> and <b className='special-color'>experienced</b> software engineers every day. 
       </p>
+  
       <div className='modal__languages'>
         <figure className='modal__language' >
             <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"/>
@@ -70,9 +71,22 @@ function App() {
 
       </div>
     </div>
-    <div className='modal__half modal__contact'>Let's have a chat
-    <h3 className='modal__title modal__title--contact'>Here's a bit  about me.</h3>
-    <h4 className='modal__sub-title modal__sub-title--conact'>Frontend Software Engineer</h4>
+    <div className='modal__half modal__contact'>
+    <h3 className='modal__title modal__title--contact'>Let's have a chat!</h3>
+    <h3 className='modal__sub-title modal__sub-title--conact'>I'm currently open to new opportunities</h3>
+    <form id="contact__form" action="">
+    <div className='form__item'>
+      <label className='form__item--label' for="name">Name</label>
+      <input className='input' name="user_name" type="text" required></input>
+    </div>
+    <div className='form__item'>
+      <label className='form__item--label' for="email">Email</label>
+      <input className='input' name="user_email" type="email" required></input>
+    </div><div className='form__item'>
+      <label className='form__item--label' for="message">Message</label>
+      <textarea className='input' name="message" type="text" required></textarea>
+    </div>
+    </form>
     </div>
     </div>
   </section>

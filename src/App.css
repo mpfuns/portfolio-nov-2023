@@ -12,7 +12,7 @@ html{
     scroll-behavior:smooth;
 }
 h1, h2, h3, h4,h5, h6, span{
-    color: #22181C;
+  
    /* text-align: center; */
     line-height:1.25;
 } 
@@ -29,7 +29,27 @@ a{
     position: relative;
     
 }
+input, textarea{
+  width:100% ;
+  background-color: #242424;
+  color: #fff;
+  outline: none; 
+  border: 3px solid #c0c4cc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 40px;
+}
+textarea{
+    resize: vertical;
+    height: 100px;
+    margin-top: 8px;
+}
+label{
+    font-size: 14px;
+    font-weight: bold;
 
+}
 
 
 img{
@@ -279,6 +299,13 @@ MODAL
     margin-bottom: 12px;
     line-height: 1.75;
 }
+.modal__language:hover .language__name{
+    transform: scale(1);
+}
+.modal__language:hover{
+    filter: brightness(80%);
+    transform: scale(0.9);
+}
 
 .modal__languages{
     display:flex;
@@ -288,6 +315,20 @@ MODAL
 .modal__language{
   width: 25%; 
   padding: 16px; 
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 300ms ease;
+}
+.language__name{
+position: absolute;
+bottom: -10px;
+transform: scale(0);
+transition: all 300ms ease;
+}
+.form__item{
+    margin-bottom: 20px;
 }
 
 /*

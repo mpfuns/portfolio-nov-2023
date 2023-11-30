@@ -86,7 +86,15 @@ function App() {
       <label className='form__item--label' for="message">Message</label>
       <textarea className='input' name="message" type="text" required></textarea>
     </div>
+    <button id="contact__submit" className='form__submit'>Send it my way</button>
     </form>
+        <div className='modal__overlay modal__overlay--loading'>
+        <i class="fa-solid fa-spinner"></i>
+        </div>
+        <div className='modal__overlay modal__overlay--success'>
+
+        </div>
+
     </div>
     </div>
   </section>

@@ -9,10 +9,7 @@ import data from './data';
 
 function App() {
  
- //template_2c353bc
- //service_hztb83j
- //
- 
+
  function contact(event){
   event.preventDefault()
   const loading= document.querySelector('.modal__overlay--loading')
@@ -34,15 +31,24 @@ loading.classList+= ' modal__overay--visible'
       "The email servcie is tempoarily unavailable. Please contact me directly on monetpaul23@gmail.com"
     )
   })
- 
- setTimeout(()=>{
-  
-  console.log('it worked')
- },1000)
 
  }
- 
- 
+ let isModalOpen =false
+ function toggleModal(){
+  
+
+  if(isModalOpen){
+    isModalOpen=false
+    return document.body.classList.remove("modal--open") ;
+  } 
+
+    
+    document.body.classList+= " modal--open";
+    isModalOpen= true
+  
+  
+
+ }
  
  
   const projectGroup= data.map(item => {  
@@ -67,7 +73,7 @@ loading.classList+= ' modal__overay--visible'
   <section id='landing-page'>
       <Nav/> 
       <Header/>
-  <button className='mail__btn click'>
+  <button className='mail__btn click' onClick={toggleModal}>
   <i class="fa-solid fa-envelope"></i>
   </button>
     <a href="#projects" className="scroll">
@@ -104,6 +110,7 @@ loading.classList+= ' modal__overay--visible'
       </div>
     </div>
     <div className='modal__half modal__contact'>
+    <i class="fa-solid fa-x modal__exit click"></i>
     <h3 className='modal__title modal__title--contact'>Let's have a chat!</h3>
     <h3 className='modal__sub-title modal__sub-title--conact'>I'm currently open to new opportunities</h3>
     <form id="contact__form"  onSubmit={contact}>
@@ -127,8 +134,7 @@ loading.classList+= ' modal__overay--visible'
         Thanks for  the message! Looking  forward to speaking  to you soon!
         </div>
     </div>
-    <i class="fa-solid fa-x modal__exit click"></i>
-   
+    
     </div>
   </section>
      

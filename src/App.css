@@ -129,6 +129,7 @@ line-height: 1;
     color:#F45B69
     }
 .click{
+    cursor: pointer;
     transition: all 300ms ease;
 }
 .click:hover{
@@ -360,8 +361,7 @@ transition: all 300ms ease;
     border-color: #f06449;
     color: #f06449;
 }
-.modal__overlay--loading{
-    background-color: blue ;
+.modal__overlay{
     position: absolute;
     left:0;
     top:0;
@@ -370,8 +370,22 @@ transition: all 300ms ease;
     display:flex;
     align-items: center;
     justify-content: center;
+    z-index: -1;
+}
+.modal__overlay--loading{
+    background-color:#242424;;
     font-size: 80px;
     z-index: -1;
+}
+.modal__overlay--success{
+ background-color: #4bb543;  
+ font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding:28px
+}
+.modal__overay--visible{
+    z-index: 1;
 }
 .fa-spinner{
 animation: spinner 750ms infinite linear;
@@ -383,6 +397,15 @@ animation: spinner 750ms infinite linear;
     100%{
         transform: rotate(360deg);
     }
+}
+.modal__exit{
+    position: absolute;
+    top:30px;
+     right:40px;
+     color:white;
+     font-size: 36px;
+     z-index: 100;
+
 }
 
 /*

@@ -1,19 +1,51 @@
 import './App.css';
+import emailjs from '@emailjs/browser';
 //COMP
 import Nav from './Components/Nav';
 import Header from './Components/Header';
-import Skills from './Components/Skills';
 import Projects from './Components/projects';
 import Footer from './Components/Footer';
-
-
-
-
-
 import data from './data';
 
 function App() {
- const projectGroup= data.map(item => {  
+ 
+ //template_2c353bc
+ //service_hztb83j
+ //
+ 
+ function contact(event){
+  event.preventDefault()
+  const loading= document.querySelector('.modal__overlay--loading')
+loading.classList+= ' modal__overay--visible' 
+ const success=document.querySelector('.modal__overlay--success')
+
+
+  emailjs.sendForm(
+   'service_hztb83j',
+   'template_2c353bc',
+  event.target, 
+  '_43HFqhr843RLsncp'
+  ).then(()=>{
+    loading.classList.remove('modal__overay--visible')
+    success.classList+= ' modal__overay--visible' 
+  }).catch(()=>{
+    loading.classList.remove('modal__overay--visible')
+    alert(
+      "The email servcie is tempoarily unavailable. Please contact me directly on monetpaul23@gmail.com"
+    )
+  })
+ 
+ setTimeout(()=>{
+  
+  console.log('it worked')
+ },1000)
+
+ }
+ 
+ 
+ 
+ 
+  const projectGroup= data.map(item => {  
   return (
   <Projects   
   image={item.picImg}
@@ -74,7 +106,7 @@ function App() {
     <div className='modal__half modal__contact'>
     <h3 className='modal__title modal__title--contact'>Let's have a chat!</h3>
     <h3 className='modal__sub-title modal__sub-title--conact'>I'm currently open to new opportunities</h3>
-    <form id="contact__form" action="">
+    <form id="contact__form"  onSubmit={contact}>
     <div className='form__item'>
       <label className='form__item--label' for="name">Name</label>
       <input className='input' name="user_name" type="text" required></input>
@@ -92,10 +124,11 @@ function App() {
         <i class="fa-solid fa-spinner"></i>
         </div>
         <div className='modal__overlay modal__overlay--success'>
-
+        Thanks for  the message! Looking  forward to speaking  to you soon!
         </div>
-
     </div>
+    <i class="fa-solid fa-x modal__exit click"></i>
+   
     </div>
   </section>
      

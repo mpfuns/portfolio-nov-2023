@@ -50,6 +50,31 @@ loading.classList+= ' modal__overay--visible'
 
  }
  
+ let contrastToggle= false
+function toggleContrast(){
+  contrastToggle= !contrastToggle
+  if(contrastToggle){
+    document.body.classList+=" dark-theme"
+  }
+  else{
+    document.body.classList.remove("dark-theme")
+  }
+
+} 
+function moveBackground(event){
+  const scaleFactor= 1/20
+  const shapes= document.querySelectorAll(".shape")
+  const xMouse= event.clientX*scaleFactor
+  const yMouse= event.clientY * scaleFactor
+  for(let i =0; i<shapes.length; ++i){
+    const isOdd= i%2 !==0;
+    const boolInt= isOdd? -1:1;
+    shapes[i].style.transform= `translate(${xMouse* boolInt}px, ${yMouse*boolInt}px)`
+  }
+
+}
+
+
  
   const projectGroup= data.map(item => {  
   return (
@@ -70,12 +95,14 @@ loading.classList+= ' modal__overay--visible'
  
   return (
     <div className="App">
-  <section id='landing-page'>
-      <Nav/> 
-      <Header/>
+  <section id='landing-page' onMouseMove={moveBackground}>
+      <Nav  toggleModal={toggleModal} toggleContrast={toggleContrast}/> 
+      <Header toggleModal={toggleModal}/>
+  <a href='#'>
   <button className='mail__btn click' onClick={toggleModal}>
   <i class="fa-solid fa-envelope"></i>
   </button>
+  </a>
     <a href="#projects" className="scroll">
       <div className='scroll__icon click'></div>
     </a>
@@ -110,7 +137,7 @@ loading.classList+= ' modal__overay--visible'
       </div>
     </div>
     <div className='modal__half modal__contact'>
-    <i class="fa-solid fa-x modal__exit click"></i>
+    <i class="fa-solid fa-x modal__exit click" onClick={toggleModal}></i>
     <h3 className='modal__title modal__title--contact'>Let's have a chat!</h3>
     <h3 className='modal__sub-title modal__sub-title--conact'>I'm currently open to new opportunities</h3>
     <form id="contact__form"  onSubmit={contact}>
@@ -134,8 +161,16 @@ loading.classList+= ' modal__overay--visible'
         Thanks for  the message! Looking  forward to speaking  to you soon!
         </div>
     </div>
-    
     </div>
+    <img src="semi circle.svg" className='shape shape--0'></img>
+    <img src="circle.svg" className='shape shape--1'></img>
+    <img src="squiggly.svg" className='shape shape--2'></img>
+    <img src="circle.svg" className='shape shape--3'></img>
+    <img src="triangle.svg" className='shape shape--4'></img>
+    <img src="circle.svg" className='shape shape--5'></img>
+    <img src="squiggly.svg" className='shape shape--6'></img>
+    <img src="circle.svg" className='shape shape--7'></img>
+    <img src="semi circle.svg" className='shape shape--8'></img>
   </section>
      
     
@@ -152,7 +187,7 @@ loading.classList+= ' modal__overay--visible'
       </div>
       </div>
       </section>
-        <Footer   />
+        <Footer toggleModal={toggleModal} />
       </div>
   );
 }

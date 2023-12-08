@@ -208,6 +208,7 @@ LANDING
 */
 #landing-page{
     min-height: 100vh;
+   
 }
 
 .header{
@@ -217,7 +218,8 @@ LANDING
     transform: translate(-50%, -50%);
     width:100%;
     max-width:1000px;
-    padding:0 30px;
+    padding:0px 30px;
+    margin-top: 80px;
 }
 
 .header__para{
@@ -500,6 +502,9 @@ animation: spinner 750ms infinite linear;
 Projects  section 
 
 */
+#projects .container{
+    padding-top: 160px;
+}
 .section__title{
  text-align: center;
  font-size: 32px;

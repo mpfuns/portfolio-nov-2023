@@ -1,5 +1,13 @@
 export default[
     {
+        projectName:"Foxtail",
+        picImg:"projects/cocktail-web.png", 
+        onlineLink:"https://prismatic-chebakia-3fa032.netlify.app/",
+        githubLink:"https://github.com/mpfuns/foxtail", 
+        para:"I wanted to practice my  Javascript skills and focus on fecth  data API and loading animation for waitiing for API. ",  
+        program:"HTML, CSS, Javascript"  
+            },
+    {
         projectName:"Meow Hosting",
         picImg:"projects/meowhostingweb.png", 
         onlineLink:"https://glowing-cucurucho-41f5b4.netlify.app/",

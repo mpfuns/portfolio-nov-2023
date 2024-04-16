@@ -1,10 +1,35 @@
 export default[
     {
+        projectName:"Codepen Clone",
+        picImg:"projects/codepen-clone.png", 
+        onlineLink:"https://codepen-clone-77f6e.web.app/",
+        githubLink:"https://github.com/mpfuns/Codepen-clone", 
+        para:"My focus is on understanding CodeMirror and Redux Store. I now know how to incorporate animation using framer.",  
+        program:"HTML, tailwindcss, Javascript, React, framer, FireBase, React CodeMirror, Redux Store"  
+            },
+    {
+        projectName:"YouTube Clone",
+        picImg:"projects/youtube-clone.png", 
+        onlineLink:"https://youtube-clone6799.netlify.app/",
+        githubLink:"https://github.com/mpfuns/youtube-clone", 
+        para:"I’ve recently discovered tailwindcss, Typescript, and Class Variance Authority. I now know how to implement a hover effect of video playback for thumbnail and a scrollbar effect for categories.",  
+        program:"HTML, tailwindcss, Javascript, React, TypeScript, Class Variance Authority "  
+            },
+
+    {
+        projectName:"Cake Delights 2",
+        picImg:"projects/cakedelight2.png", 
+        onlineLink:"https://cakedelights2.netlify.app/",
+        githubLink:"https://github.com/mpfuns/cake-delights-3", 
+        para:"I gained knowledge about file organization and React routing.",  
+        program:"HTML, CSS, Javascript, React"  
+            },
+    {
         projectName:"Foxtail",
         picImg:"projects/cocktail-web.png", 
         onlineLink:"https://prismatic-chebakia-3fa032.netlify.app/",
         githubLink:"https://github.com/mpfuns/foxtail", 
-        para:"I wanted to practice my  Javascript skills and focus on fecth  data API and loading animation for waitiing for API. ",  
+        para:"I want to improve my JavaScript skills by practicing how to use APIs to retrieve data and create loading animations to enhance the user experience. ",  
         program:"HTML, CSS, Javascript"  
             },
     {
@@ -12,7 +37,7 @@ export default[
         picImg:"projects/meowhostingweb.png", 
         onlineLink:"https://glowing-cucurucho-41f5b4.netlify.app/",
         githubLink:"https://github.com/mpfuns/meow-hosting", 
-        para:"I wanted to practice my CSS skills. I made a fake E-commerce for hosting called Meow Hosting. Also, learn Intersection Observer and refs.",  
+        para:"My goal was to improve my CSS abilities through practice. I created a fictional hosting E-commerce named Meow Hosting. Familiarize myself with Intersection Observer and refs.",  
         program:"HTML, CSS, Javascript, React"  
             },
     {
@@ -20,7 +45,7 @@ export default[
         picImg:"projects/Cake-Delightsweb.png", 
         onlineLink:"https://bright-rugelach-e83b78.netlify.app/",
         githubLink:"https://github.com/mpfuns/cake-delights", 
-        para:"I wanted to practice and improve my CSS skills. I made a fake E-commerce cake shop called Cake Delights. Also, to improve putting images in React. With this project, I have a better understanding of CSS on a deeper level.",  
+        para:"I wanted to work on my CSS skills and see improvement. I made up this online cake shop called Cake Delights. Also, to enhance image placement in React. This project helped me grasp CSS on a deeper level.",  
         program:"HTML, CSS, Javascript, React"  
             },
     {
@@ -36,7 +61,7 @@ export default[
     picImg:"projects/Luciddream.png",
     onlineLink:"https://poetic-gumption-fad8b0.netlify.app/",
     githubLink:"https://github.com/mpfuns/Lucid-dream-timer", 
-    para:"I tried many methods to have at least one lucid dream during my spiritual journey, but none of them worked. I watch YouTube video for lucid dreaming and the guy said he had a website with this cool timer for lucid dreaming. However; I did not find the page. This lead to me deciding to make my own Lucid dream timer.",
+    para:"I gave a shot to a bunch of methods to have a lucid dream on my spiritual journey, but none of them did the trick. I’m into this YouTuber who talks about lucid dreaming and he mentioned a website with an outstanding lucid dreaming timer. But... That’s when I created my own Lucid dream timer.",
     program:"HTML, CSS, Javascript, React"     
             }, 
     {
@@ -44,7 +69,7 @@ export default[
     picImg:"projects/eth-sketch.png", 
     onlineLink:"https://mpfuns.github.io/eth-a-sketch/",
     githubLink:"https://github.com/mpfuns/eth-a-sketch", 
-    para:"For the eth-a-sketch project, it was one of the ultimate challenges when I was learning JavaScript from The Odin Project. I grew my searching skills from this project.",
+    para:"The eth-a-sketch project was an actual struggle when I was learning JavaScript from The Odin Project. This project helped me improve my searching skills.",
     program:"HTML, CSS, JavaScript"    
                 }, 
     {
@@ -52,7 +77,7 @@ export default[
     picImg:"projects/calculator .png", 
     onlineLink:"https://beautiful-elf-180756.netlify.app/",
     githubLink:"https://github.com/mpfuns/calculator", 
-    para:"For Calculator, it was the last challenge when I was learning JavaScript from The Odin Project.",
+    para:"The last challenge I did while learning JavaScript from The Odin Project was Calculator.",
     program:"HTML, CSS, JavaScript"    
             }
 ]

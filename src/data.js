@@ -18,7 +18,7 @@ export default[
 
     {
         projectName:"Cake Delights 2",
-        picImg:"projects/cakedelight2.png", 
+        picImg:"projects/cakedelight2.0.png", 
         onlineLink:"https://cakedelights2.netlify.app/",
         githubLink:"https://github.com/mpfuns/cake-delights-3", 
         para:"I gained knowledge about file organization and React routing.",  

@@ -4,16 +4,16 @@ export default[
         picImg:"projects/foxtail2.0.png", 
         onlineLink:"https://foxtail2.netlify.app/",
         githubLink:"https://github.com/mpfuns/foxtail-2.0", 
-        para:"My goal was to put into practice nearly everything I’ve learned until now. Gain a deeper understanding of Framer motion.",  
-        program:"HTML, tailwindcss, Javascript, React, Framer motion"  
+        para:"My goal was to put into practice nearly everything I’ve learned until now. Gain a deeper understanding of Framer Motion.",  
+        program:"HTML, tailwindcss, Javascript, React, Framer Motion"  
             },
     {
         projectName:"Codepen Clone",
         picImg:"projects/codepen-clone.png", 
         onlineLink:"https://codepen-clone-77f6e.web.app/",
         githubLink:"https://github.com/mpfuns/Codepen-clone", 
-        para:"My focus is on understanding CodeMirror and Redux Store. I now know how to incorporate animation using framer motion.",  
-        program:"HTML, tailwindcss, Javascript, React, Framer motion, FireBase, React CodeMirror, Redux Store"  
+        para:"My focus is on understanding CodeMirror and Redux Store. I now know how to incorporate animation using framer Motion.",  
+        program:"HTML, tailwindcss, Javascript, React, Framer Motion, FireBase, React CodeMirror, Redux Store"  
             },
     {
         projectName:"YouTube Clone",

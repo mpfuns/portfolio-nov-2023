@@ -12,7 +12,7 @@ export default[
         picImg:"projects/codepen-clone.png", 
         onlineLink:"https://codepen-clone-77f6e.web.app/",
         githubLink:"https://github.com/mpfuns/Codepen-clone", 
-        para:"My focus is on understanding CodeMirror and Redux Store. I now know how to incorporate animation using framer Motion.",  
+        para:"My focus is on understanding CodeMirror and Redux Store. I now know how to incorporate animation using Framer Motion.",  
         program:"HTML, tailwindcss, Javascript, React, Framer Motion, FireBase, React CodeMirror, Redux Store"  
             },
     {

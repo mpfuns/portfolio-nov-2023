@@ -1,5 +1,13 @@
 export default[
     {
+        projectName:"Steam Clone",
+        picImg:"steam-clone-web.png", 
+        onlineLink:"https://steam-clone-20.netlify.app/",
+        githubLink:"https://github.com/mpfuns/Steam-2.0-clone", 
+        para:"I wanted to understand layout and the API of Steam. It was a pretty challenge project to learn about how the slider works for the cards of the video games and categories. The api that I was using was Free-To-Play Games Database API (steam API was hard to set up). Something went wrong on their end. I created a fake API data for this project.  ",  
+        program:"HTML, tailwindcss, Javascript, React, Framer Motion"  
+            },
+    {
         projectName:"Foxtail 2.0",
         picImg:"projects/foxtail2.0.png", 
         onlineLink:"https://foxtail2.netlify.app/",

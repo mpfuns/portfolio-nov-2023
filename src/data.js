@@ -1,5 +1,23 @@
 export default[
     {
+        projectName:"Book Haven Bookstore",
+        picImg:"projects/classproject.png", 
+        onlineLink:"https://stackblitz.com/edit/book-haven-bookstore1?file=index.html",
+        githubLink:"https://github.com/mpfuns/book-haven-bookstore1", 
+        para:"The class project helped me revisit some foundational principles of web development.",  
+        program:"HTML, CSS, Javascript"  
+            },
+    
+    {
+        projectName:"Safekeep Home Repair.",
+        picImg:"projects/clientwebsite.png", 
+        onlineLink:"https://safekeephomerepair.com/",
+        githubLink:"https://github.com/mpfuns", 
+        para:"This website is a client's pride and joy. They envisioned an animated character gracing the home page, presenting an intriguing challenge that sparked my creativity.   ",  
+        program:"HTML, tailwindcss, Javascript, React, Framer Motion, Lottie Files"  
+            },
+
+    {
         projectName:"Steam Clone",
         picImg:"projects/steam-clone-web.png", 
         onlineLink:"https://steam-clone-20.netlify.app/",

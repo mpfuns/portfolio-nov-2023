@@ -9,7 +9,7 @@ function Header (props){
     
      <h1 className="title">Hello</h1>
      <h1 className=" title"><span className="special-color">It's Monet.</span></h1>
-     <p className="header__para">I'm a <strong className="special-color">Frontend Software Engineer</strong> with an interest in buliding web application with amazing user experiences. <br></br>
+     <p className="header__para">I'm a <strong className="special-color">Rising Developer</strong> with an interest in buliding application with amazing user experiences. <br></br>
      Here's more <strong className="special-color click" onClick={props.toggleModal}> about me.</strong>
      </p>  
      <div className="social__list">

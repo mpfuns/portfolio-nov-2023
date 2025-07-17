@@ -30,7 +30,7 @@ export default[
         picImg:"projects/foxtail2.0.png", 
         onlineLink:"https://foxtail2.netlify.app/",
         githubLink:"https://github.com/mpfuns/foxtail-2.0", 
-        para:"My goal was to put into practice nearly everything I’ve learned until now. Gain a deeper understanding of Framer Motion.",  
+        para:"This project was my opportunity to apply nearly everything I've learned so far and dive deeper into Framer Motion. I conducted extensive research—watching tutorials and experimenting—to build the custom loading animation I envisioned. Through this process, I discovered just how powerful Framer Motion can be. I added a press-down hover effect to the navigation buttons and created a staggered reveal animation for cocktail search results. Before coding, I designed the full layout in Figma, which streamlined the development phase and brought the concept to life faster.",  
         program:"HTML, tailwindcss, Javascript, React, Framer Motion"  
             },
     {
@@ -38,7 +38,7 @@ export default[
         picImg:"projects/codepen-clone.png", 
         onlineLink:"https://codepen-clone-77f6e.web.app/",
         githubLink:"https://github.com/mpfuns/Codepen-clone", 
-        para:"My focus is on understanding CodeMirror and Redux Store. I now know how to incorporate animation using Framer Motion.",  
+        para:"I've been focused on deepening my understanding of CodeMirror and mastering state management with Redux Store. Along the way, I’ve also learned how to incorporate dynamic animations using Framer Motion to enhance user interaction and visual appeal.",  
         program:"HTML, tailwindcss, Javascript, React, Framer Motion, FireBase, React CodeMirror, Redux Store"  
             },
     {
@@ -46,7 +46,7 @@ export default[
         picImg:"projects/youtube-clone.png", 
         onlineLink:"https://youtube-clone6799.netlify.app/",
         githubLink:"https://github.com/mpfuns/youtube-clone", 
-        para:"I’ve recently discovered tailwindcss, Typescript, and Class Variance Authority. I now know how to implement a hover effect of video playback for thumbnail and a scrollbar effect for categories.",  
+        para:"I recently dove into Tailwind CSS, TypeScript, and Class Variance Authority—tools that expanded my development toolkit significantly. Using them, I successfully implemented a hover-triggered video playback on thumbnails and designed a sleek scrollbar effect for category navigation, enhancing both function and visual appeal.",  
         program:"HTML, tailwindcss, Javascript, React, TypeScript, Class Variance Authority "  
             },
 
@@ -55,7 +55,7 @@ export default[
         picImg:"projects/cakedelight2.0.png", 
         onlineLink:"https://cakedelights2.netlify.app/",
         githubLink:"https://github.com/mpfuns/cake-delights-3", 
-        para:"I gained knowledge about file organization and React routing.",  
+        para:"I deepened my understanding of efficient file organization and implemented React routing to enhance application structure and user navigation.",  
         program:"HTML, CSS, Javascript, React"  
             },
     {
@@ -63,7 +63,7 @@ export default[
         picImg:"projects/cocktail-web.png", 
         onlineLink:"https://prismatic-chebakia-3fa032.netlify.app/",
         githubLink:"https://github.com/mpfuns/foxtail", 
-        para:"I want to improve my JavaScript skills by practicing how to use APIs to retrieve data and create loading animations to enhance the user experience. ",  
+        para:"I’m actively working to strengthen my JavaScript skills by integrating APIs to fetch dynamic data and designing custom loading animations that elevate the user experience.",  
         program:"HTML, CSS, Javascript"  
             },
     {
@@ -71,7 +71,7 @@ export default[
         picImg:"projects/meowhostingweb.png", 
         onlineLink:"https://glowing-cucurucho-41f5b4.netlify.app/",
         githubLink:"https://github.com/mpfuns/meow-hosting", 
-        para:"My goal was to improve my CSS abilities through practice. I created a fictional hosting E-commerce named Meow Hosting. Familiarize myself with Intersection Observer and refs.",  
+        para:"To sharpen my CSS skills, I built a fictional e-commerce site called Meow Hosting. This project gave me hands-on experience with responsive styling while allowing me to explore advanced techniques like Intersection Observer and React refs to enhance user interaction and layout behavior.",  
         program:"HTML, CSS, Javascript, React"  
             },
     {
@@ -79,7 +79,7 @@ export default[
         picImg:"projects/Cake-Delightsweb.png", 
         onlineLink:"https://bright-rugelach-e83b78.netlify.app/",
         githubLink:"https://github.com/mpfuns/cake-delights", 
-        para:"I wanted to work on my CSS skills and see improvement. I made up this online cake shop called Cake Delights. Also, to enhance image placement in React. This project helped me grasp CSS on a deeper level.",  
+        para:"To level up my CSS skills, I created a fictional online cake shop called Cake Delights. The project challenged me to improve layout styling and refine image placement using React. Through hands-on experimentation, I gained a deeper understanding of CSS fundamentals and how thoughtful design choices elevate the user experience.",  
         program:"HTML, CSS, Javascript, React"  
             },
     {
@@ -87,7 +87,7 @@ export default[
     picImg:"projects/richdadpoordad.png", 
     onlineLink:"https://chic-liger-cb54db.netlify.app/",
     githubLink:"https://github.com/mpfuns/richdadpoordad-gamesheet", 
-    para:"The Cashflow board game from Robert Kiyosaki, author of Rich Dad Poor Dad, inspired the project. I created a web-based spreadsheet to help players to track their income and expenses better than the game paper sheet for board game.",  
+    para:"Inspired by the Cashflow board game from Robert Kiyosaki, author of Rich Dad Poor Dad, I developed a web-based spreadsheet to help players track income and expenses more effectively than the traditional paper version. While learning through Scrimba, I deepened my understanding of localStorage and built this project to solidify those skills through hands-on practice.",  
     program:"HTML, CSS, Javascript, React"  
         },
     {
@@ -95,7 +95,7 @@ export default[
     picImg:"projects/Luciddream.png",
     onlineLink:"https://poetic-gumption-fad8b0.netlify.app/",
     githubLink:"https://github.com/mpfuns/Lucid-dream-timer", 
-    para:"I gave a shot to a bunch of methods to have a lucid dream on my spiritual journey, but none of them did the trick. I’m into this YouTuber who talks about lucid dreaming and he mentioned a website with an outstanding lucid dreaming timer. But... That’s when I created my own Lucid dream timer.",
+    para:"On my spiritual journey, I explored various methods for achieving lucid dreams, but none delivered the results I was hoping for. Inspired by a YouTuber who recommended an impressive lucid dreaming timer, I decided to take matters into my own hands. That’s when I built my own Lucid Dream Timer—designed to be more intuitive and effective than anything I’d seen online.",
     program:"HTML, CSS, Javascript, React"     
             }, 
     {

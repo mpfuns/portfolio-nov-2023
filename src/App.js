@@ -109,11 +109,11 @@ function moveBackground(event){
     <div className='modal'>
     <div className='modal__half modal__about'>
       <h3 className='modal__title modal__title--about'>Here's a bit  about me.</h3>
-      <h4 className='modal__sub-title modal__sub-title--about'>Frontend Software Engineer</h4>
+      <h4 className='modal__sub-title modal__sub-title--about'>Rising Developer</h4>
       <p className='modal__para'>
-        I'm a 23 year-old <b className='special-color'>Frontend Software Engineer</b> with a strong passion for developing  websites with <b className='special-color'> great user experiences.</b>
+        I'm a <b className='special-color'>Rising Developer</b> with a strong passion for developing software with<b className='special-color'> great user experiences.</b>
         <br></br>
-        I'm currently working  on extremely difficult engineering problems and learn from a team consisting of some of the most <b className='special-color'>talented</b> and <b className='special-color'>experienced</b> software engineers every day. 
+        I'm currently working on Bachelor degree in <b className='special-color'> Computer Science</b>! 
       </p>
   
       <div className='modal__languages'>
